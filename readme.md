@@ -5,22 +5,29 @@
 
 ## Installation and Usage
 
-1. Copy the example environment file:
+1. Clone the repository and navigate into the project directory:
+
+   ```bash
+   git clone https://github.com/nodemov/kanit-mailtester.git
+   cd kanit-mailtester
+   ```
+
+2. Copy the example environment file:
 
    ```bash
    cp .env.example .env
    ```
 
-2. Install dependencies:
+3. Install dependencies:
 
    ```bash
    composer install
    ```
 
-3. Start the PHP built-in server:
+4. Start the PHP built-in server:
 
    ```bash
    php -S localhost:8000 src/index.php
    ```
 
-4. Access the application in your browser at `http://localhost:8000`.
+5. Access the application in your browser at `http://localhost:8000`.
