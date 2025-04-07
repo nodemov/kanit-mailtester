@@ -1,0 +1,18 @@
+{
+    "name": "kanit/mailtester",
+    "autoload": {
+        "psr-4": {
+            "Kanit\\Mailtester\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kanit Wijitpanya",
+            "email": "kanit.wjpy@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
